@@ -1,0 +1,175 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.swiper .swiper-slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .swiper-slide .swiper-button-next,
+.swiper .swiper-slide .swiper-button-prev {
+  color: #2e2e2e;
+}
+
+.innerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding: 0 85px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header #nav img {
+  width: 30px;
+}
+header h1 a {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e2e;
+}
+header .gnb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 22px;
+     -moz-column-gap: 22px;
+          column-gap: 22px;
+}
+header .gnb li a {
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+.swiper .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+  height: 1080px;
+}
+
+#container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e2e2e;
+  text-align: center;
+  padding-top: 5.5em;
+  padding-bottom: 2.5em;
+}
+#container .prd-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3.5em;
+}
+#container .prd-list .thumbnail {
+  position: relative;
+  width: 100%;
+}
+#container .prd-list .thumbnail .prd-img img {
+  width: 100%;
+}
+#container .prd-list .desription div {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #2e2e2e;
+}
+#container .prd-list .desription span.out {
+  display: block;
+  background: red;
+  width: 27px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+#container .arrow > a {
+  position: absolute;
+  top: 55%;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+#container .prev {
+  background: url(../images/iconmonstr-angel-left-thin-48.png);
+  left: 15%;
+}
+#container .next {
+  background: url(../images/iconmonstr-angel-right-thin-48.png);
+  right: 15%;
+}
+
+footer {
+  margin-top: 5.5em;
+}
+footer .left p:last-child {
+  padding-top: 5px;
+}
+footer .mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 39px;
+     -moz-column-gap: 39px;
+          column-gap: 39px;
+}
+footer .mid p {
+  font-weight: 400;
+  font-size: 14px;
+}
+footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 39px;
+     -moz-column-gap: 39px;
+          column-gap: 39px;
+}
